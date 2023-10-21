@@ -1,0 +1,4 @@
+OUTPUT FILE:
+
+letter count: 486
+Number count: 1

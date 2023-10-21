@@ -15,3 +15,10 @@ for line in data.split("\n"):
 
 print(f"letter count: {letters}")
 print(f"Number count: {numbers}")
+
+# put counts in outputs.txt 
+
+with open("outputs.txt", "w") as output_counts:
+    output_counts.write("OUTPUT FILE:\n\n")
+    output_counts.write(f"letter count: {letters}\n")
+    output_counts.write(f"Number count: {numbers}")
