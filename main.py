@@ -1,5 +1,5 @@
 # context manager
-with open("mydefaults.ini.txt") as ini_file:
+with open("lucky/mydefaults.ini.txt") as ini_file:
     data = ini_file.read()
 
 # initialization
